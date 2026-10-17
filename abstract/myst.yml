@@ -1,53 +1,52 @@
 version: 1
 project:
-  # id: ubcgif-YEAR-AUTHORS-CONFERENCE
-  # title: TITLE
-  # description: DESCRIPTION
+  id: ubcgif-2026-stutters-et-al-MT3DINV4
+  title: Techniques for Improving MT Forward Simulations with Octree Meshes
+  description: Abstract and presentation for MT3DINV4 Task 1
   authors:
-    # - name: AUTHOR 1
-    #   email: EMAIL
-    #   corresponding: true
-    #   orcid: ORCID
-    #   affiliation:
-    #     id: ubc
-    #     name: Geophysical Inversion Facility, University of British Columbia, Vancouver, British Columbia
-    # - name: Lindsey J. Heagy
-    #   email: lheagy@eoas.ubc.ca
-    #   corresponding: true
-    #   orcid: 0000-0002-1551-5926
-    #   affiliation: ubc
-    # - name: Douglas W. Oldenburg
-    #   affiliation: ubc
-    #   email: doug@eos.ubc.ca
-    #   orcid: 0000-0002-4327-2124
-  # banner: banner.png
+    - name: Rylan Stutters
+      email: ryds105@gmail.com
+      corresponding: true
+      orcid: 0009-0002-7467-2267
+      affiliation:
+        id: ubc
+        name: Geophysical Inversion Facility, University of British Columbia, Vancouver, British Columbia
+    - name: Wouter Deleersnyder
+      orcid: 0000-0003-4481-1801
+      affiliation: ubc
+    - name: Santiago Soler
+      email: ssoler@eoas.ubc.ca
+      orcid: 0000-0001-9202-5317
+      affiliation: ubc
+    - name: Lindsey J. Heagy
+      email: lheagy@eoas.ubc.ca
+      orcid: 0000-0002-1551-5926
+      affiliation: ubc
+  banner: banner.png
   thumbnail: thumbnail.png
   # subject: Electromagnetics
   venue:
-    # title: CONFERENCE NAME
-    # url: CONFERENCE URL
-  # license: CC-BY-4.0
-  # open_access: true
+    title: 4th Magnetotelluric 3D Inversion Workshop
+    url: https://mt3dinv4.mtnet.info/Home.html
+  license: CC-BY-4.0
+  open_access: true
   # doi: DOI
-  # date: YYYY-MM-DD
+  date: 2026-07-31
   abbreviations:
-    # DC: direct current
+    MT: magnetotellurics
     # EM: electromagnetics
   # github:
   # bibliography: []
-  # keywords:
-  #   - Controlled source electromagnetics (CSEM)
-  #   - Downhole methods
-  #   - Numerical modelling
-  #   - Electrical properties
-  #   - Magnetic properties
+  keywords:
+    - Magnetotellurics
+    - Forward Modelling
 site:
   template: article-theme
   actions:
-    # - title: pdf
-    #   url: ARTICLE-NAME.pdf
-    #   static: true
-    # - title: slides
-    #   url: presentation/SLIDES-NAME.pdf
-    #   static: true
+    - title: abstract
+      url: rstutters_MT3DINV4_abstract.pdf
+      static: true
+    - title: slides
+      url: presentation/rstutters_MT3DINV4_task1.pdf
+      static: true
   # domains: []
