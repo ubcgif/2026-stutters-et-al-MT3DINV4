@@ -40,6 +40,7 @@ project:
   keywords:
     - Magnetotellurics
     - Forward Modelling
+    - OcTree
   downloads:
     - title: abstract
       url: rstutters_MT3DINV4_abstract.pdf
