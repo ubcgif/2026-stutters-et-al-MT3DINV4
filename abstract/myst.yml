@@ -41,8 +41,7 @@ project:
     - Magnetotellurics
     - Forward Modelling
 site:
-  template: article-theme
-  actions:
+  downloads:
     - title: abstract
       url: rstutters_MT3DINV4_abstract.pdf
       static: true
