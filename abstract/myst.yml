@@ -48,4 +48,6 @@ project:
     - title: slides
       url: presentation/rstutters_MT3DINV4_task1.pdf
       static: true
+site:
+  template: article-theme
   # domains: []
